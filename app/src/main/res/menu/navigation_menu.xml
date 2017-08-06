@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_item6" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_action_about"
+            android:title="@string/menu_item2" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_action_feedback"
+            android:title="@string/menu_item3" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_action_share"
+            android:title="@string/menu_item4" />
+    </group>
+
+    <item android:title="@string/menu_item8">
+        <menu>
+            <item
+                android:id="@+id/night_switch"
+                android:title="@string/menu_item7"
+                app:actionLayout="@layout/layout_switch" />
+        </menu>
+    </item>
+
+</menu>

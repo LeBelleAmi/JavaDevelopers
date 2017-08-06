@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--add colors to indicate the three items state for pressed, activated and selected state -->
+    <item android:drawable="@color/color_background" android:state_pressed="true"/>
+    <item android:drawable="@color/color_background" android:state_activated="true"/>
+    <item android:drawable="@color/color_background" android:state_selected="true"/>
+
+    <!-- for default state-->
+    <item android:drawable="@color/white_background"/>
+
+</selector>

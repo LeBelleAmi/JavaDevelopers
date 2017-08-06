@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/list_item_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="center_vertical">
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/avatar"
+                android:layout_width="@dimen/avatar_bounds"
+                android:layout_height="@dimen/avatar_bounds"
+                android:layout_marginEnd="@dimen/avatar_margin"
+                android:layout_marginStart="@dimen/avatar_margin"
+                android:padding="@dimen/avatar_padding"
+                android:src="@color/avatar_background" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Title"
+                    tools:text="Eyekpimi Omawumi" />
+
+            <TextView
+            android:id="@+id/profile_url"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.Subtitle"            android:maxLines="1"
+            android:textAllCaps="true"
+            tools:text="profile"
+            android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.Subtitle"            android:maxLines="1"
+                android:textAllCaps="true"
+                android:visibility="gone"
+                tools:text="url" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

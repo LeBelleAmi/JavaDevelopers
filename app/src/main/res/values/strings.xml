@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Java Developers</string>
+    <string name="app_name2">Quad</string>
+    <string name="name">Full Name</string>
+    <string name="job">Java Developer</string>
+    <string name="username">\u0040 Username</string>
+    <string name="github_link">https://github.com/LeBelleAmi</string>
+    <string name="information">Information</string>
+    <string name="location">Lagos, Nigeria</string>
+    <string name="number_sample">100</string>
+    <string name="repos">Repos</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="button_text">Share</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="user_bio">If you think you can, you can. And if you think you can\u00b4t, you\u00b4re right.</string>
+    <string name="menu_item1">Search</string>
+    <string name="menu_item2">About</string>
+    <string name="menu_item3">Feedback</string>
+    <string name="menu_item4">Share</string>
+    <string name="menu_item5">Exit</string>
+    <string name="menu_item6">Home</string>
+    <string name="menu_item7">NightMode</string>
+    <string name="menu_item8">Settings</string>
+    <string name="at">\u0040</string>
+    <string name="not_available">No Bio Available</string>
+    <string name="internet_connection">Connection Failed! \n Check your connection to the internet! \n swipe down to refresh.</string>
+    <string name="empty_state">No github Java developers available, \n swipe down to refresh.</string>
+    <string name="search_hint">Search Quad</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading Profile</string>
+    <string name="about_app">This is a Java Developers Information Android Application designed for research purposes for the Andela Android Intermediate Program. Property of Omawumi Eyekpimi© 2017.</string>
+</resources>
